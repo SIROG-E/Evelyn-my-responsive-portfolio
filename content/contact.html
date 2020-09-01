@@ -1,145 +1,37 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-  <!--<![endif]-->
+<html class="no-js"> <!--<![endif]-->
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Contact Me - Jude Clark</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png" />
-        <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Evelyn Goris Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-        <!-- Favicon end -->
-    <!-- Bootstrap CSS-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- bootstrap css link for sticky-footer -->
+    <link href="./assets/bootstrapstickyfooter.css" rel="stylesheet"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- My own CSS -->
-    <link rel="stylesheet" href="./assets/myglobalstyles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./styles/AllStyles.css" />
+
+    <!-- favicon link-->
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
   </head>
 
   <body>
-    <!-- Beginning of Nav bar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light nav-teal"
-      id="navmargin-bottom"
-    >
-      <a class="navbar-brand" href="#">Jude Clark</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Contact <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- End of Nav Bar -->
-
-    <!-- Main section start -->
-    <div id="page-container">
-      <main>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8" id="contact-box"> <!--Contact form starts here-->
-              <h1>Contact</h1>
-              <hr />
-              <form>
-                <!-- Name input -->
-                <div class="form-group">
-                  <label for="inputName">Name</label>
-                  <input type="text" class="form-control" id="inputName" />
-                </div>
-
-                <!-- Email input -->
-                <div class="form-group">
-                  <label for="inputEmail">Email</label>
-                  <input type="text" class="form-control" id="inputEmail" />
-                </div>
-
-                <!-- Text box -->
-                <div class="form-group">
-                  <label for="messageTextArea">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="messageTextArea"
-                    rows="3"
-                  ></textarea>
-                </div>
-
-                <!-- submit button -->
-                <button type="submit" class="btn btn-primary btn-teal">
-                  Submit
-                </button>
-              </form>
-            </div>
-
-          </div>
-        </div>
-      </main>
-    </div>
-
-    <!-- Main section end -->
-
-    <!-- Footer begin -->
-    <footer>
-      <div id="footermain">&copy; Copyright Evelyn Goris 2020
-      </div>
-    </footer>
-    <!-- Footer End -->
-
-    <!-- Scripts from Bootstrap -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    
+    
+    <script src="" async defer></script>
   </body>
 </html>
