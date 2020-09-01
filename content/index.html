@@ -1,4 +1,6 @@
-<html>
+<!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
   <meta charset="utf-8">
@@ -7,16 +9,31 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+  <!-- bootstrap css link for sticky-footer -->
+  <link href="./assets/bootstrapstickyfooter.css" rel="stylesheet"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css">
 
-  <link rel="stylesheet" href="content/styles/site.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
 
+  <!-- my css -->
+  <link rel="stylesheet" href="./content/styles/AllStyles.css" />
+
+  <!-- favicon link-->
+  <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon_io/site.webmanifest" />
 </head>
 
 <body>
+  <!-- NavBar begins -->
   <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center navbar-expand-lg bg-light">
     <div class="bg-info">
       <a class="navbar-brand text-white home-name" href="#">Evelyn Goris
@@ -31,10 +48,10 @@
 
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#">About</a>
@@ -42,6 +59,9 @@
       </ul>
     </div>
   </nav>
+  <!-- navbar ends -->
+
+  <!-- Main sections starts -->
   <br />
   <br />
   <br />
@@ -57,17 +77,31 @@
         <article class="single-post mt-5 no-gutters">
           <div class="col">
             <div class="image-wrapper float-left pr-3">
-              <img src="content/images/Me.JPG" alt="My picture">
+              <img src="images/Me.JPG" alt="My picture">
             </div>
             <div class="single-post-content-wrapper">
               My name is Evelyn Goris. I am originally from Peru, South America.
               I moved to the U.S. to pursue a medical degree. Due to complicated situations, I had to put my dreams of
               becoming a Neurologist on hold. It is during the 2020 pandemic that I
-              decided to enroll in the Full Time Coding BootCamp at the Georgia Institute of Technology.
+              decided to enroll in the Full Time Coding BootCamp at the Georgia Institute of Technology. I hold an
+              Associates Degree in Science. Graduated with <em>magna cum laude </em> and was in the
+              President's List during the entire I was enrolled at Lone Star College. I am fluent in Spanish, English
+              and some Portuguese.
+              <br>
+              <br>
+              My family is everything to me. I have two children, Sophie and Gabriel. I have two younger siblings, Jorge
+              and Karla, and a niece, Chaia. My parents live abroad, but visit four times a year. I love spending time
+              with them, kayaking, party planning among other things.
 
-              <br><br>
-              Graduated with <em>magna cum laude </em> Associates Degree in Science.
+              <ul class="list-group list-group-flush social-list">
 
+                <li class="list-group-item"><a href="https://github.com/SIROG-E" target="_blank">
+                  <img src="./assets/github_logo.png" class="socialicon">&nbsp;&nbsp;&nbsp;<Sirog-E></a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/evelyn-goris-78668a1b5/"
+                    target="_blank"><img src="./assets/linkedin_logo.png" class="socialicon">&nbsp;&nbsp;&nbsp;Evelyn Goris</a></li>
+                <li class="list-group-item"><img src="assets/gmail_logo.png"
+                    class="socialicon">&nbsp;&nbsp;&nbsp;goris.evelyn@gmail.com</li>
+              </ul>
 
             </div>
           </div>
@@ -76,31 +110,7 @@
     </div>
   </main>
 
-  
-  
-  
-  <footer>
-    <div id="footermain">&copy; Copyright Evelyn Goris 2020 
-    </div>
-  </footer>
-  
-  
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-  crossorigin="anonymous"
-></script>
-
+  <script src="" async defer></script>
 </body>
 
 </html>
