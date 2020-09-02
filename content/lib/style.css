@@ -1,0 +1,68 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+
+body {
+    background-image: url("images/ignasi_pattern_s.png");
+}
+
+.home-name {
+    margin-left: 60px;
+    font-family: 'Source Serif Pro', serif;
+  
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: 150px;
+
+
+
+/* Footer */
+footer {
+    border-top: 10px solid #5a8b89;
+    background-color: #4d6566;
+    position: relative;
+    height: 55px;
+    margin-top: -55px; /*negative margin repositions footer back. Info obtained from stalk app */
+    clear: both;  /*line break*/
+  }
+  
+#footermain {
+    /* https://www.w3schools.com/css/css_align.asp provides this list below /provided by classmates */
+    color: #434444;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(
+      -50%,
+      -50%
+    ); 
+  }
+
+  /* On screens that are 992px or less*/
+@media screen and (max-width: 992px) {
+    .picture-frame {
+      width: 228px;
+      height: 300px;
+    }
+  }
+  
+  /* On screens that are 768px or less*/
+  @media screen and (max-width: 768px) {
+    .picture-frame {
+      width: 133px;
+      height: 175px;
+    }   
+  
+  }
+  
+  /* On screens that are 768px or less*/
+  @media screen and (max-width: 400px) {
+    .picture-frame {
+      width: 106px;
+      height: 140px;
+    } 
+  }
