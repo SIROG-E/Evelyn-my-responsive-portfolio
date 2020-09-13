@@ -9,7 +9,7 @@ We were asked to replicate an Index page, a Portfolio page, and a Contact page a
 
 ## Preview
 
-![Project Image](./content/images/preview.png)
+![Project Image](./content/images/Preview.png)
 
 > "About Me" Index's Page
 
