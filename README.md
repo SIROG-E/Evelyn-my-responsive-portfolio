@@ -19,27 +19,28 @@ We were asked to replicate an Index page, a Portfolio page, and a Contact page a
 
 [My Portfolio](https://sirog-e.github.io/Evelyn-my-responsive-portfolio/)
 
- https://sirog-e.github.io/hw-01-code-refactor/
 
 
 ---
 
 ## Description
 
-The requirement included:
-* Functional, deployed application
-* GitHub repository with README describing the project
+The requirements included:
+* Functional, deployed application.
+* GitHub repository with README describing the project.
 * Navbar must be consistent on each page.
 * Navbar on each page must contain links to Home/About,    
   Contact, and Portfolio pages.
 * All links must work.
 * Must use semantic html.
-* Each page must have valid and correct HTML. (use a validation 
+* Each page must have valid and correct HTML. (Use a validation 
   service)
-* Must contain your personalized information. (bio, name,  
+* Must contain personalized information. (bio, name,  
   images, links to social media, etc.)
 * Must properly utilize Bootstrap components and grid system.
 
 ## Review
 
-When compared to the original, it looks pretty similar to the one provided. Links navigate to the locations they are supposed to. I had trouble adding the background picture. It worked from the beginning, but somehow it broke later. Same thing happened with the sticky footer. For this homework, I tried adding more commets. 
+When compared to the original, it looks pretty similar to the one provided. Links navigate to the locations they are supposed to. I had trouble adding the background picture. It worked from the beginning, but somehow it broke later. Same thing happened with the sticky footer. For this homework, I tried adding more comments. 
+
+My Website: <br> https://sirog-e.github.io/Evelyn-my-responsive-portfolio/
